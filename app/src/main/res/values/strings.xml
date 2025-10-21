@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Список дел</string>
+    <string name="authorization">Авторизация</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="enter">Войти</string>
+    <string name="enter_data">Введите данные</string>
+    <string name="save">Сохранить</string>
+    <string name="godata">Перейти к списку дел</string>
+    <string name="important">Важное</string>
+    <string name="remind">Напоминание</string>
+    <string name="choose">Выбрать категорию</string>
+    <string name="setTime">Выбрать время</string>
+    <string name="set_date">Выбрать дату</string>
+    <string name="add">Добавить</string>
+</resources>

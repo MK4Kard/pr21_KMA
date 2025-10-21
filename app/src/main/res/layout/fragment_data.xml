@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/title_data"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:hint="@string/enter_data"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/important"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/time_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setTime"
+        android:background="@drawable/block_item"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="10sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/date_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/set_date"
+        android:background="@drawable/block_item"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="10sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        android:background="@drawable/block_item"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/enter_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250sp"
+        android:text="@string/godata"
+        android:background="@drawable/block_item"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+</LinearLayout>
